@@ -1,8 +1,7 @@
 name: Comment
 on: pull_request
 jobs:
-    print:
-        name: Comment
+    comment:
         runs-on: ubuntu-latest
         permissions:
             pull-requests: write
